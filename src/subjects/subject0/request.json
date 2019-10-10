@@ -1,0 +1,10 @@
+{
+  "device": "device8", 
+  "rights": [
+    {
+      "conditions": "C1,C2,C6", 
+      "right": "PUT", 
+      "resource": "resource3"
+    }
+  ]
+}

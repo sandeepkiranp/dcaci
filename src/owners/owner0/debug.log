@@ -1,0 +1,177 @@
+TCP server listen on address : {"address":"::","family":"IPv6","port":7000}
+Access Token ID=Ii8mGm1HFs generated for subject0
+side_key jsSR1DdkW3teuOU5vVUw
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "jsSR1DdkW3teuOU5vVUw",
+        "mode": "restricted",
+        "next_root": "DCLKRWRUGBTPSCNXUMHSOYCRYDVTIENLSKEQDHYONXNBFJDIONVZQNEMGVFOZGDBNABLMMYEOFLVKKNLH",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUWII8MGM1HFS"
+}
+=================
+root --> REEPKWHWMFDLIFHFJYXNJLJWMQYBXXNLYCVGADNHTEESJLLBGHHPZHUPALAUFVZGGVXNA9L9ESXGBVIBR
+address --> LO9VU9QLDDJ9FXDLSRAFJ9RYOHYL9XFPWSASZJHAVMFXHEKZFNWMRV9EHOATCOXECESCHZ9GEOWTNZRQJ
+publish address = LO9VU9QLDDJ9FXDLSRAFJ9RYOHYL9XFPWSASZJHAVMFXHEKZFNWMRV9EHOATCOXECESCHZ9GEOWTNZRQJ
+address = REEPKWHWMFDLIFHFJYXNJLJWMQYBXXNLYCVGADNHTEESJLLBGHHPZHUPALAUFVZGGVXNA9L9ESXGBVIBR
+The mamstate file Ii8mGm1HFs.mamstate was saved!
+The mamstate file Ii8mGm1HFs.token was saved!
+Update Access requested for Ii8mGm1HFs
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "jsSR1DdkW3teuOU5vVUw",
+        "mode": "restricted",
+        "next_root": "TNPQKIABRHNWFKIJHARMGEPTRRACIQHKIRZLXCOUTMSOGPN9GLVAEDDTRMRBXJUPLBBFLC9IEZJHYIAGI",
+        "security": 2,
+        "start": 2,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUWII8MGM1HFS"
+}
+=================
+root --> DCLKRWRUGBTPSCNXUMHSOYCRYDVTIENLSKEQDHYONXNBFJDIONVZQNEMGVFOZGDBNABLMMYEOFLVKKNLH
+address --> TUSFNHHWCORP9HDQJODHG9FHDURCOYLUPAVYCIBXZGAYUDRHDKZVQXOEFQPKVRBD9MP9FSKKTIQGDBXBM
+publish address = TUSFNHHWCORP9HDQJODHG9FHDURCOYLUPAVYCIBXZGAYUDRHDKZVQXOEFQPKVRBD9MP9FSKKTIQGDBXBM
+The mamstate file Ii8mGm1HFs.mamstate was saved!
+Update Access requested for ID=Ii8mGm1HFs ... Access Updated!
+Update Access requested for Ii8mGm1HFs
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "jsSR1DdkW3teuOU5vVUw",
+        "mode": "restricted",
+        "next_root": "VOFBCOHXOMFSZUGHYOZUGKUENTIWQLQSHD9SEKBJG9HTOOGDJFZQQ9VLNDBWPIATCGCKDAFNXSDCBVSYB",
+        "security": 2,
+        "start": 3,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUWII8MGM1HFS"
+}
+=================
+root --> TNPQKIABRHNWFKIJHARMGEPTRRACIQHKIRZLXCOUTMSOGPN9GLVAEDDTRMRBXJUPLBBFLC9IEZJHYIAGI
+address --> XMSTXDP9ZOETGTWXWNWYTNRSKGEPRYU99LKCIQCOCSJFPZYQQETYLQTVIRYFOPMMGIZONGZWAXHGWNVEC
+Access Token ID=7mEQPd8xs4 generated for subject0
+side_key MJkeD3HPQwMy3EDqohig
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "MJkeD3HPQwMy3EDqohig",
+        "mode": "restricted",
+        "next_root": "HRHMESYKBUSZ9HRJKAD9EEWOIHXNSKPTZBZGWNPPPHFLBNVRPHASMJQKQWAIPMYNOGYFHAJCKWZBMWNM9",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUW7MEQPD8XS4"
+}
+=================
+root --> 9WOXJKOJ9FNDSMGKPTLALX9MLFOSRQZKQDIGXOHMXGTIHIB9LHFNFTKXMHPRQEWGCCFWQWICLLSDXAHIF
+address --> PWKZEBXNYZRSNJXEFDXTNATUCLDLXTCAMTLWLVPPNNJFSPWVVKQZQWNWYUEUGFMMOZWWYYJYNQAQNJCSR
+publish address = XMSTXDP9ZOETGTWXWNWYTNRSKGEPRYU99LKCIQCOCSJFPZYQQETYLQTVIRYFOPMMGIZONGZWAXHGWNVEC
+The mamstate file Ii8mGm1HFs.mamstate was saved!
+Update Access requested for ID=Ii8mGm1HFs ... Access Updated!
+publish address = PWKZEBXNYZRSNJXEFDXTNATUCLDLXTCAMTLWLVPPNNJFSPWVVKQZQWNWYUEUGFMMOZWWYYJYNQAQNJCSR
+address = 9WOXJKOJ9FNDSMGKPTLALX9MLFOSRQZKQDIGXOHMXGTIHIB9LHFNFTKXMHPRQEWGCCFWQWICLLSDXAHIF
+The mamstate file 7mEQPd8xs4.mamstate was saved!
+The mamstate file 7mEQPd8xs4.token was saved!
+Update Access requested for 7mEQPd8xs4
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "MJkeD3HPQwMy3EDqohig",
+        "mode": "restricted",
+        "next_root": "RM9QQBNIQZYOVYRTACHVPXVPSAHSYADDRHGEHOGEKR9SOAC9VQLQVDVCGRHHUGXVZIWTCYMUEXUCMGLSM",
+        "security": 2,
+        "start": 2,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUW7MEQPD8XS4"
+}
+=================
+root --> HRHMESYKBUSZ9HRJKAD9EEWOIHXNSKPTZBZGWNPPPHFLBNVRPHASMJQKQWAIPMYNOGYFHAJCKWZBMWNM9
+address --> EJZKQYCBCWSZUIBJEDONNMQTJKZHTWEURWATGNQSDS9HKPPSMFBQXPTPFF9YTLSHSZXOUSGONWK9HUIKS
+publish address = EJZKQYCBCWSZUIBJEDONNMQTJKZHTWEURWATGNQSDS9HKPPSMFBQXPTPFF9YTLSHSZXOUSGONWK9HUIKS
+The mamstate file 7mEQPd8xs4.mamstate was saved!
+Update Access requested for ID=7mEQPd8xs4 ... Access Updated!
+Update Access requested for 7mEQPd8xs4
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "MJkeD3HPQwMy3EDqohig",
+        "mode": "restricted",
+        "next_root": "GYIUYSNZQ9NPYVOQOVRJNMBBEUEUHUMQKWTNGBVJXQSOWES9FZOZXVIYYIYHNOKPLM9GTUBLHFQWBJTNZ",
+        "security": 2,
+        "start": 3,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUW7MEQPD8XS4"
+}
+=================
+root --> RM9QQBNIQZYOVYRTACHVPXVPSAHSYADDRHGEHOGEKR9SOAC9VQLQVDVCGRHHUGXVZIWTCYMUEXUCMGLSM
+address --> MWXRAYEI9FQZZOGBGLFEDBRPCZDHPAHMWAGBQHROBYWHLZADYBRRTLXRZNMELZHWZMJFTVSGYYHQIEXB9
+publish address = MWXRAYEI9FQZZOGBGLFEDBRPCZDHPAHMWAGBQHROBYWHLZADYBRRTLXRZNMELZHWZMJFTVSGYYHQIEXB9
+The mamstate file 7mEQPd8xs4.mamstate was saved!
+Update Access requested for ID=7mEQPd8xs4 ... Access Updated!
+Update Access requested for 7mEQPd8xs4
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "MJkeD3HPQwMy3EDqohig",
+        "mode": "restricted",
+        "next_root": "MXVBNUAJKYZMDGGGFXVIJINUHQTRJRSFX9ZBVHJVGVJHASRZHNXLKAKSLZKSRY9FRLKFV9QJHNKIOLTER",
+        "security": 2,
+        "start": 4,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUW7MEQPD8XS4"
+}
+=================
+root --> GYIUYSNZQ9NPYVOQOVRJNMBBEUEUHUMQKWTNGBVJXQSOWES9FZOZXVIYYIYHNOKPLM9GTUBLHFQWBJTNZ
+address --> IJTRACMUEG9KWILLKU9BX9DXLVNGCMIUGFGAWHOCIAVOOWXFSAKRQTDJMPFJEMSRLPWQNCEBACTJSBOGZ
+Access Token ID=CwFxRRyQrt generated for subject2
+side_key Rq1TQqtkGNCkD8LO456h
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "Rq1TQqtkGNCkD8LO456h",
+        "mode": "restricted",
+        "next_root": "JU9FTTHXPPGZQVSJAGHPDXTOCLNFXHAPDK9YZATIGUQJBVLFAGRZWKNXNBZHZDZTRYYXVWEO9XFKRPNET",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUWCWFXRRYQRT"
+}
+=================
+root --> MKXSHXFGFIVHVODMLGBTJTHUYWIVLTSFHJJH9VZYYMPEOUPITAIZWUEQNPNEGMEIGZWWJXXGUFZ9ZWPPB
+address --> PDFZXQCWLPJAHHTKFWJHMNOPAHORUUZCYJMSVMKNRPRLHUZQXBPIFCSSIOTXABOTLAGIIOWLKHHI9XVSP
+TCP server listen on address : {"address":"::","family":"IPv6","port":7000}

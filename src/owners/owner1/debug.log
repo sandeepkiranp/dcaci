@@ -1,0 +1,28 @@
+TCP server listen on address : {"address":"::","family":"IPv6","port":7001}
+Access Token ID=9hj0I5FxwA generated for subject2
+side_key pXOPAPdDGloEKZvOWqbD
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "pXOPAPdDGloEKZvOWqbD",
+        "mode": "restricted",
+        "next_root": "CHPERSHCNHYGE9BUEDEBETZQTUAQBCBN9SIXIYMLDZYPELQWXASQTUAMHQKQPTNLGZWCFPFLXCX9XBUHI",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "EKFTFYCGIGDQNMBDNCEMGUPRDJMGBXKKUAHZR9EMIYMDMKZWBTO9OVAXNZQGEEVXWDAQLKR9HJ0I5FXWA"
+}
+=================
+root --> YNJTLBLYBCJBYQVDHFGRIKRJ9UOVCXQRSNFWNVYSUXZDJKIRLEQSCMURGSPLNN9HTMFUHVTUICSZQHTHF
+address --> MBXCLYHWLOJBZZFYUDMBPUWQUIBZZGMGEDTEYQQJLCZJCIWFMVSXJSNZFGOOMA9KE9NHRVSDWKVFGG9VS
+publish address = MBXCLYHWLOJBZZFYUDMBPUWQUIBZZGMGEDTEYQQJLCZJCIWFMVSXJSNZFGOOMA9KE9NHRVSDWKVFGG9VS
+address = YNJTLBLYBCJBYQVDHFGRIKRJ9UOVCXQRSNFWNVYSUXZDJKIRLEQSCMURGSPLNN9HTMFUHVTUICSZQHTHF
+The mamstate file 9hj0I5FxwA.mamstate was saved!
+The mamstate file 9hj0I5FxwA.token was saved!
+TCP server listen on address : {"address":"::","family":"IPv6","port":7001}
+side_key from mamstate pXOPAPdDGloEKZvOWqbD
+Access GET requested for ID=9hj0I5FxwA ... Access Granted!

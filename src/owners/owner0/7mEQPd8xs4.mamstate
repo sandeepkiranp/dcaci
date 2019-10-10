@@ -1,0 +1,14 @@
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "MJkeD3HPQwMy3EDqohig",
+        "mode": "restricted",
+        "next_root": "GYIUYSNZQ9NPYVOQOVRJNMBBEUEUHUMQKWTNGBVJXQSOWES9FZOZXVIYYIYHNOKPLM9GTUBLHFQWBJTNZ",
+        "security": 2,
+        "start": 3,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "SWDSBCFPMPIRPHHMFBZHXZTXEHNLWHKTQYHRTHCTIEVXFHGDSNIBGJBJSRKPLGZHRBX9JUW7MEQPD8XS4"
+}

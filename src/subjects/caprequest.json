@@ -1,0 +1,61 @@
+{
+  "isdelegable": "yes", 
+  "devices": [
+    {
+      "device": "device9", 
+      "rights": [
+        {
+          "right": "PUT", 
+          "resource": "resource2"
+        }, 
+        {
+          "right": "POST", 
+          "resource": "resource4"
+        }, 
+        {
+          "right": "PUT", 
+          "resource": "resource0"
+        }
+      ]
+    }, 
+    {
+      "device": "device8", 
+      "rights": [
+        {
+          "right": "POST", 
+          "resource": "resource1"
+        }
+      ]
+    }, 
+    {
+      "device": "device2", 
+      "rights": [
+        {
+          "right": "POST", 
+          "resource": "resource4"
+        }, 
+        {
+          "right": "DELETE", 
+          "resource": "resource3"
+        }, 
+        {
+          "right": "DELETE", 
+          "resource": "resource2"
+        }
+      ]
+    }, 
+    {
+      "device": "device7", 
+      "rights": [
+        {
+          "right": "PUT", 
+          "resource": "resource3"
+        }, 
+        {
+          "right": "DELETE", 
+          "resource": "resource0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "devices": [
+      { 
+          "device":"domA/home/room1/thermostat",
+          "rights": [
+              {
+                 "resource":"temperature",
+                 "right":"GET"
+              },
+              {
+                 "resource":"humidity",
+                 "right":"POST"
+              }
+          ]
+      }
+  ],
+  "isdelegable":"yes"
+}
+

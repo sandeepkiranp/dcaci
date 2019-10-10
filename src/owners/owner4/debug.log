@@ -1,0 +1,102 @@
+TCP server listen on address : {"address":"::","family":"IPv6","port":7004}
+Access Token ID=icpRgRL4TA generated for subject2
+side_key tk3HoG5Fk7H9kPicE1Nl
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "tk3HoG5Fk7H9kPicE1Nl",
+        "mode": "restricted",
+        "next_root": "9HDMKBGUGDYDG9PBGYWTWBADPNJZWEJTUWDQAZUSOGJIMIJWHSWCALZZACRJJYNTZGSLBUVP9WFRTRBC9",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "MIUVPXNPELHUWDYVXPEJMKNQHG9LJSJNTUAAUXKJPYQETIFZKBFIPBULRJDXGQEEGITSKXWICPRGRL4TA"
+}
+=================
+root --> MZXQB9NUAPQAQAETUXOJHOSKDZQVZ9NDIBPHDPOYBCUJEZHJY9MKKXNKUQHKPAZMUVSUPZ9XJPSQDSVML
+address --> HLOSOZMUAHLXGZCDVVLSZQYXPYLZAZZX9IMTZVMWJFELTAZNUQSMWBYUSLALWXQHSBFJGDYHBWKOMSDCQ
+publish address = HLOSOZMUAHLXGZCDVVLSZQYXPYLZAZZX9IMTZVMWJFELTAZNUQSMWBYUSLALWXQHSBFJGDYHBWKOMSDCQ
+address = MZXQB9NUAPQAQAETUXOJHOSKDZQVZ9NDIBPHDPOYBCUJEZHJY9MKKXNKUQHKPAZMUVSUPZ9XJPSQDSVML
+The mamstate file icpRgRL4TA.mamstate was saved!
+The mamstate file icpRgRL4TA.token was saved!
+Access Token ID=FC0IPIzSFT generated for subject0
+side_key jpksQemA4m2vFJuG8jkF
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "jpksQemA4m2vFJuG8jkF",
+        "mode": "restricted",
+        "next_root": "EWOOMUNNNXHDSVNFQNGODVEECERQIQJOWXEJBRWQMCQWBNDJEJUJCRCLEMKQOQIMNGMTOXYDUDYSERETA",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "MIUVPXNPELHUWDYVXPEJMKNQHG9LJSJNTUAAUXKJPYQETIFZKBFIPBULRJDXGQEEGITSKXWFC0IPIZSFT"
+}
+=================
+root --> LTKWWZKHTQJSTB9QABPRYNEKEITVJQKPVYVHHPTTRAGCEDUWAWCHVUNOVXBVXKSAGJNLMAIGFFKZAQGYM
+address --> OHUTKXAQNDJS9RJOTRDSLEETNZDVOKECGNXYNEU9CPAPDIXYICRQN9FCYYNVQJTHVI9RJOSRE9WOIWCBX
+publish address = OHUTKXAQNDJS9RJOTRDSLEETNZDVOKECGNXYNEU9CPAPDIXYICRQN9FCYYNVQJTHVI9RJOSRE9WOIWCBX
+address = LTKWWZKHTQJSTB9QABPRYNEKEITVJQKPVYVHHPTTRAGCEDUWAWCHVUNOVXBVXKSAGJNLMAIGFFKZAQGYM
+The mamstate file FC0IPIzSFT.mamstate was saved!
+The mamstate file FC0IPIzSFT.token was saved!
+Update Access requested for icpRgRL4TA
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "tk3HoG5Fk7H9kPicE1Nl",
+        "mode": "restricted",
+        "next_root": "CROVVWLSIHCRLYNMLNDB9OWRRSSSHNHRCBPFQLWMISNHCD9ZSQ9RSSPOSRTLPMROMPEATGKX9CIYLAWYA",
+        "security": 2,
+        "start": 2,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "MIUVPXNPELHUWDYVXPEJMKNQHG9LJSJNTUAAUXKJPYQETIFZKBFIPBULRJDXGQEEGITSKXWICPRGRL4TA"
+}
+=================
+root --> 9HDMKBGUGDYDG9PBGYWTWBADPNJZWEJTUWDQAZUSOGJIMIJWHSWCALZZACRJJYNTZGSLBUVP9WFRTRBC9
+address --> JLTFZJBFTG99FYB9E9CBDBYVNXXSZQNTPYCXWVQGRTITBATWDRTUNANUWAFLFFCYK9G9BNY9CNEFOBIKM
+publish address = JLTFZJBFTG99FYB9E9CBDBYVNXXSZQNTPYCXWVQGRTITBATWDRTUNANUWAFLFFCYK9G9BNY9CNEFOBIKM
+The mamstate file icpRgRL4TA.mamstate was saved!
+Update Access requested for ID=icpRgRL4TA ... Access Updated!
+Access Token ID=URY0zOdOVs generated for subject0
+side_key 4m7GlMqCsUqBmeUvb2sN
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "4m7GlMqCsUqBmeUvb2sN",
+        "mode": "restricted",
+        "next_root": "LMSDPM9OEESXRFOYFONQAGXCLSAGW9PWNR9THUUBM9VMYRJMO9TDXTMNUODTQWPPBC9YOKASRYZDHQLHO",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "MIUVPXNPELHUWDYVXPEJMKNQHG9LJSJNTUAAUXKJPYQETIFZKBFIPBULRJDXGQEEGITSKXWURY0ZODOVS"
+}
+=================
+root --> HPILJFMWY9DQHSGHLFBVITGHWETQEEAJYYFCGNEZDILSOTAVWVOSWSBGUDLQSQXFLZQVJJYHPMZJCKH9S
+address --> XKPJYLAPCPCJWKQWSGTMXUWOMLSMQOWZJAIFKNV9CWFDFCLRAGKCKJCDFLFOARQACFMTWZLTKE9DUEDRW
+publish address = XKPJYLAPCPCJWKQWSGTMXUWOMLSMQOWZJAIFKNV9CWFDFCLRAGKCKJCDFLFOARQACFMTWZLTKE9DUEDRW
+address = HPILJFMWY9DQHSGHLFBVITGHWETQEEAJYYFCGNEZDILSOTAVWVOSWSBGUDLQSQXFLZQVJJYHPMZJCKH9S
+The mamstate file URY0zOdOVs.mamstate was saved!
+The mamstate file URY0zOdOVs.token was saved!
+TCP server listen on address : {"address":"::","family":"IPv6","port":7004}
+side_key from mamstate tk3HoG5Fk7H9kPicE1Nl
+Access GET requested for ID=icpRgRL4TA ... Access Granted!
+side_key from mamstate tk3HoG5Fk7H9kPicE1Nl
+Access GET requested for ID=icpRgRL4TA ... Access Granted!
+side_key from mamstate 4m7GlMqCsUqBmeUvb2sN
+Access GET requested for ID=URY0zOdOVs ... Access Granted!

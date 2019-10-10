@@ -1,0 +1,10 @@
+{
+  "device": "domA/home/room1/bulb", 
+  "rights": [
+    {
+      "conditions": "C1,C2,C6", 
+      "right": "GET", 
+      "resource": "temperature"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+TCP server listen on address : {"address":"::","family":"IPv6","port":7003}
+Access Token ID=HXnKzRdQHF generated for subject0
+side_key XtYIzpdIMCFLuQHqVrAn
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "XtYIzpdIMCFLuQHqVrAn",
+        "mode": "restricted",
+        "next_root": "TEESMGYYKDMQVMQWJRHVKAISETGEMQZ9UNC9LBHIQOICVVMBSF9QXQTSMWIDFOZWNHHAUNOUYNTWPG9FE",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "MWXXTJZXLYIAENXC9TPTHYWZBUDOQMNDGPWWMPKHRJFAAOLQZMHZESPC9HTYM9PPBPKSOMJHXNKZRDQHF"
+}
+=================
+root --> NWDOAPKGN9XSBEVNNKXHFNHEKGLOJTOCFAWEPAQEWBOJUIMBHHQPEWRIGGUYCMABILJXHPSHNJTNNDVHA
+address --> ZBRWOBBJWNGWLV9VMSRQPXMNVHTXCDWPVOWKQYCCWWY9UYMKJVPHXCOPWRDLNIZOIRLXXFEMRWP9KAVSZ
+publish address = ZBRWOBBJWNGWLV9VMSRQPXMNVHTXCDWPVOWKQYCCWWY9UYMKJVPHXCOPWRDLNIZOIRLXXFEMRWP9KAVSZ
+address = NWDOAPKGN9XSBEVNNKXHFNHEKGLOJTOCFAWEPAQEWBOJUIMBHHQPEWRIGGUYCMABILJXHPSHNJTNNDVHA
+The mamstate file HXnKzRdQHF.mamstate was saved!
+The mamstate file HXnKzRdQHF.token was saved!
+Access Token ID=6sgqRrs0BR generated for subject1
+side_key cufUQQBbluH9OStZIZfi
+=================
+{
+    "subscribed": [],
+    "channel": {
+        "side_key": "cufUQQBbluH9OStZIZfi",
+        "mode": "restricted",
+        "next_root": "EMSYXTYKYKEOQVGGFKSGWARGABTTUXYYCF9RVGORHYZDMQTXVNPMUZFW9KQZUYTUQYWMJXMLFTQQXAEUM",
+        "security": 2,
+        "start": 1,
+        "count": 1,
+        "next_count": 1,
+        "index": 0
+    },
+    "seed": "MWXXTJZXLYIAENXC9TPTHYWZBUDOQMNDGPWWMPKHRJFAAOLQZMHZESPC9HTYM9PPBPKSOMJ6SGQRRS0BR"
+}
+=================
+root --> AUPPWCBJC9DOTXJVUDCYNJZ9WNAIMAJXNNSYD9SRGKBMGYWJEEJXTCUSCSMGFOP9GNGYYESHJMFOSCIQI
+address --> AUUVZLKWXSOBPVDMJZZTWMITSUGTZOVWPOJTCAHRRCRP9OBASIYXJBFRYFJONNBL9ATTFRIHOYMJXZVEX
+publish address = AUUVZLKWXSOBPVDMJZZTWMITSUGTZOVWPOJTCAHRRCRP9OBASIYXJBFRYFJONNBL9ATTFRIHOYMJXZVEX
+address = AUPPWCBJC9DOTXJVUDCYNJZ9WNAIMAJXNNSYD9SRGKBMGYWJEEJXTCUSCSMGFOP9GNGYYESHJMFOSCIQI
+The mamstate file 6sgqRrs0BR.mamstate was saved!
+The mamstate file 6sgqRrs0BR.token was saved!
+TCP server listen on address : {"address":"::","family":"IPv6","port":7003}
+side_key from mamstate cufUQQBbluH9OStZIZfi
+Access GET requested for ID=6sgqRrs0BR ... Access Granted!

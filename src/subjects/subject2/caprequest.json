@@ -1,0 +1,136 @@
+{
+  "isdelegable": "yes", 
+  "devices": [
+    {
+      "device": "device3", 
+      "rights": [
+        {
+          "right": "PUT", 
+          "resource": "resource0"
+        }, 
+        {
+          "right": "POST", 
+          "resource": "resource0"
+        }, 
+        {
+          "right": "POST", 
+          "resource": "resource2"
+        }, 
+        {
+          "right": "POST", 
+          "resource": "resource0"
+        }
+      ]
+    }, 
+    {
+      "device": "device5", 
+      "rights": [
+        {
+          "right": "PUT", 
+          "resource": "resource0"
+        }, 
+        {
+          "right": "GET", 
+          "resource": "resource1"
+        }, 
+        {
+          "right": "DELETE", 
+          "resource": "resource2"
+        }, 
+        {
+          "right": "GET", 
+          "resource": "resource4"
+        }
+      ]
+    }, 
+    {
+      "device": "device5", 
+      "rights": [
+        {
+          "right": "GET", 
+          "resource": "resource4"
+        }, 
+        {
+          "right": "PUT", 
+          "resource": "resource2"
+        }, 
+        {
+          "right": "GET", 
+          "resource": "resource3"
+        }
+      ]
+    }, 
+    {
+      "device": "device5", 
+      "rights": [
+        {
+          "right": "POST", 
+          "resource": "resource2"
+        }, 
+        {
+          "right": "PUT", 
+          "resource": "resource4"
+        }, 
+        {
+          "right": "POST", 
+          "resource": "resource2"
+        }, 
+        {
+          "right": "PUT", 
+          "resource": "resource0"
+        }
+      ]
+    }, 
+    {
+      "device": "device6", 
+      "rights": [
+        {
+          "right": "POST", 
+          "resource": "resource1"
+        }, 
+        {
+          "right": "DELETE", 
+          "resource": "resource2"
+        }
+      ]
+    }, 
+    {
+      "device": "device5", 
+      "rights": [
+        {
+          "right": "GET", 
+          "resource": "resource4"
+        }, 
+        {
+          "right": "GET", 
+          "resource": "resource3"
+        }, 
+        {
+          "right": "DELETE", 
+          "resource": "resource4"
+        }, 
+        {
+          "right": "DELETE", 
+          "resource": "resource3"
+        }
+      ]
+    }, 
+    {
+      "device": "device6", 
+      "rights": [
+        {
+          "right": "PUT", 
+          "resource": "resource0"
+        }, 
+        {
+          "right": "POST", 
+          "resource": "resource3"
+        }, 
+        {
+          "right": "PUT", 
+          "resource": "resource3"
+        }
+      ]
+    }
+  ]
+}

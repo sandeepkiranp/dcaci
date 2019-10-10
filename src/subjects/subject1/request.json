@@ -1,0 +1,10 @@
+{
+  "device": "device9", 
+  "rights": [
+    {
+      "conditions": "C1,C2,C6", 
+      "right": "GET", 
+      "resource": "resource1"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "device": "home/room1/thermostat",
+    "rights": [
+        {
+            "resource": "humidity",
+            "right": "POST"
+        }
+        {
+            "resource": "temperature",
+            "right": "GET"
+        }
+    ]
+}

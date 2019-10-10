@@ -1,0 +1,9 @@
+{
+           "device": "domA/home/room1/bulb",
+            "rights": [
+                {
+                    "resource": "temperature",
+                    "right": "GET"
+                }
+            ]
+}
