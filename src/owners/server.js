@@ -4,15 +4,16 @@ var fs = require('fs');
 var crypto = require('crypto')
 var util = require('util');
 
-const Mam = require('mam.client.js')
-const { asciiToTrytes, trytesToAscii } = require('mam.client.js/node_modules/@iota/converter')
+const Mam = require('@iota/mam')
+const { asciiToTrytes, trytesToAscii } = require('@iota/converter')
 
 var SEED
 var MAM_INITIALIZED = 0
 //const IOTA_NODE = 'https://nodes.thetangle.org:443'
 //const IOTA_NODE = 'https://testnet140.tangle.works'
 //const IOTA_NODE = 'https://wallet1.iota.town:443'
-const IOTA_NODE = 'https://nodes.devnet.thetangle.org'
+//const IOTA_NODE = 'https://nodes.devnet.thetangle.org'
+const IOTA_NODE = 'https://nodes.devnet.iota.org'
 
 var idaddrstore = {}
 
@@ -32,7 +33,7 @@ const publish = async (mode, sidekey, mamState, packet, response_fun, client_con
         var new_seed = SEED.replaceAt(SEED.length - packet["id"].length, packet["id"].toUpperCase())
         mamState = Mam.init(IOTA_NODE, new_seed)
         if (mode == 'RESTRICTED') {
-            mamState = Mam.changeMode(mamState, 'restricted', sidekey)
+            mamState = Mam.changeMode(mamState, 'restricted', asciiToTrytes(sidekey))
         }
     }
     MAM_INITIALIZED = 1
@@ -142,7 +143,7 @@ const create_cap_token = (client_conn, data) => {
     var sidekey
     if (mammode == 'RESTRICTED')
         sidekey = makeid(20)
-    console.log('side_key ' + sidekey)
+    console.log('side_key ' + asciiToTrytes(sidekey))
     publish(mammode, sidekey, null, data, cap_publish, client_conn) 
 }
 
@@ -368,7 +369,7 @@ async function check_access(client, request, data) {
         while (address != undefined ) {
             while(1) {
                 if(mode == 'RESTRICTED') 
-                    resp = await Mam.fetchSingle(address, 'restricted', side_keys[indx])
+                    resp = await Mam.fetchSingle(address, 'restricted', asciiToTrytes(side_keys[indx]))
                 else
                     resp = await Mam.fetchSingle(address, 'public')
                 if (!resp)

@@ -4,15 +4,16 @@ var fs = require('fs');
 var crypto = require('crypto')
 var util = require('util');
 
-const Mam = require('mam.client.js')
-const { asciiToTrytes, trytesToAscii } = require('mam.client.js/node_modules/@iota/converter')
+const Mam = require('@iota/mam')
+const { asciiToTrytes, trytesToAscii } = require('@iota/converter')
 
 var SEED
 var MAM_INITIALIZED = 0
 //const IOTA_NODE = 'https://nodes.thetangle.org:443'
-const IOTA_NODE = 'https://testnet140.tangle.works'
+//const IOTA_NODE = 'https://testnet140.tangle.works'
 //const IOTA_NODE = 'https://wallet1.iota.town:443'
 //const IOTA_NODE = 'https://nodes.devnet.thetangle.org'
+const IOTA_NODE = 'https://nodes.devnet.iota.org'
 
 var idaddrstore = {}
 
@@ -32,7 +33,7 @@ const publish = async (mode, sidekey, mamState, packet, response_fun, client_con
         var new_seed = SEED.replaceAt(SEED.length - packet["id"].length, packet["id"].toUpperCase())
         mamState = Mam.init(IOTA_NODE, new_seed)
         if (mode == 'RESTRICTED') {
-            mamState = Mam.changeMode(mamState, 'restricted', sidekey)
+            mamState = Mam.changeMode(mamState, 'restricted', asciiToTrytes(sidekey))
         }
     }
     MAM_INITIALIZED = 1
@@ -48,7 +49,8 @@ const publish = async (mode, sidekey, mamState, packet, response_fun, client_con
     console.log('address --> ' + message.address)
 
     // Attach the payload.
-    await Mam.attach(message.payload, message.address)
+    await Mam.attach(message.payload, message.address, 3, 9)
+    console.log('publish address = ' + message.address)
     response_fun(sidekey, mamState, packet, message.root, client_conn) 
 }
 
@@ -88,6 +90,7 @@ const store_cap_token = (data,id) => {
 
 function cap_publish(side_key, mamstate, data, address, client_conn)
 {
+    console.log('address = ' + address)
     data["currentaddress"] = address
     ret = store_cap_token(mamstate,data["id"] + '.mamstate')
     ret = store_cap_token(data, data["id"] + '.token')
@@ -140,7 +143,7 @@ const create_cap_token = (client_conn, data) => {
     var sidekey
     if (mammode == 'RESTRICTED')
         sidekey = makeid(20)
-
+    console.log('side_key ' + asciiToTrytes(sidekey))
     publish(mammode, sidekey, null, data, cap_publish, client_conn) 
 }
 
@@ -313,7 +316,8 @@ function get_side_key_chain(rootid, depth)
     var mamstate = JSON.parse(contents)
 
     //extract the sidekey from mamstate file from the rootid
-    side_key = mamstate.channel.side_key
+    side_key = mamstate.channel.side_key.substring(0, 20)
+    console.log('side_key from mamstate ' + side_key)
     sidekeys.push(side_key)
     while(depth > 0) {
         side_key = crypto.createHash('sha1').update(side_key).digest('hex');
@@ -348,10 +352,12 @@ async function check_access(client, request, data) {
         }
 
         //Start from last known address for this CapToken ID
-        if (!idaddrstore[remote_data["id"]])
+        if (!idaddrstore[remote_data["id"]]){
             address = remote_data["currentaddress"] 
-        else
+        }
+        else {
             address = idaddrstore[remote_data["id"]]
+        }
 
         parentid = remote_data["id"]
         issuer = remote_data["subject"]
@@ -362,9 +368,8 @@ async function check_access(client, request, data) {
         
         while (address != undefined ) {
             while(1) {
-                console.log('address = ' + address + 'sidekey = ' + side_keys[indx])
                 if(mode == 'RESTRICTED') 
-                    resp = await Mam.fetchSingle(address, 'restricted', side_keys[indx])
+                    resp = await Mam.fetchSingle(address, 'restricted', asciiToTrytes(side_keys[indx]))
                 else
                     resp = await Mam.fetchSingle(address, 'public')
                 if (!resp)
@@ -378,6 +383,8 @@ async function check_access(client, request, data) {
 
             if (lastresp) {
                 current_data = JSON.parse(trytesToAscii(lastresp.payload))
+                idaddrstore[current_data["id"]] = lastaddr
+
                 if(current_data.status != "ACTIVE") {
                     console.log('status not ACTIVE for token ' + current_data["id"])
                     ret = 0
@@ -397,7 +404,6 @@ async function check_access(client, request, data) {
                     ret = 0
                     break
                 }
-                idaddrstore[current_data["id"]] = lastaddr
 
                 if(!idaddrstore[current_data["parentid"]])
                     address = current_data["parentaddress"]
