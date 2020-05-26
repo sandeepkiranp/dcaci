@@ -92,6 +92,7 @@ function cap_publish(side_key, mamstate, data, address, client_conn)
 {
     console.log('address = ' + address)
     data["currentaddress"] = address
+    mamstate.channel.dcaci_side_key = side_key
     ret = store_cap_token(mamstate,data["id"] + '.mamstate')
     ret = store_cap_token(data, data["id"] + '.token')
 
@@ -316,7 +317,7 @@ function get_side_key_chain(rootid, depth)
     var mamstate = JSON.parse(contents)
 
     //extract the sidekey from mamstate file from the rootid
-    side_key = mamstate.channel.side_key.substring(0, 20)
+    side_key = mamstate.channel.dcaci_side_key
     console.log('side_key from mamstate ' + side_key)
     sidekeys.push(side_key)
     while(depth > 0) {
@@ -368,11 +369,12 @@ async function check_access(client, request, data) {
         
         while (address != undefined ) {
             while(1) {
+		console.log('Fetching data from ' + address + 'side_key ' + side_keys[indx])
                 if(mode == 'RESTRICTED') 
                     resp = await Mam.fetchSingle(address, 'restricted', asciiToTrytes(side_keys[indx]))
                 else
                     resp = await Mam.fetchSingle(address, 'public')
-                if (!resp)
+                if (!resp.payload)
                     break
                 lastresp = resp 
                 lastaddr = address
@@ -489,7 +491,7 @@ SEED = fs.readFileSync('seed', 'utf8');
 
 // Create and return a net.Server object, the function will be invoked when client connect to this server.
 var server = net.createServer(function(client) {
-    //console.log('Client connect. Client local address : ' + client.localAddress + ':' + client.localPort + '. client remote address : ' + client.remoteAddress + ':' + client.remotePort);
+    console.log('Client connect. Client local address : ' + client.localAddress + ':' + client.localPort + '. client remote address : ' + client.remoteAddress + ':' + client.remotePort);
     client.setEncoding('utf-8');
 
     //client.setTimeout(10000);
