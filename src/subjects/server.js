@@ -14,6 +14,7 @@ var MAM_INITIALIZED = 0
 //const IOTA_NODE = 'https://wallet1.iota.town:443'
 //const IOTA_NODE = 'https://nodes.devnet.thetangle.org'
 const IOTA_NODE = 'https://nodes.devnet.iota.org'
+//const IOTA_NODE = 'http://10.24.128.8:14265'
 
 var idaddrstore = {}
 
@@ -106,6 +107,7 @@ function cap_publish(side_key, mamstate, data, address, client_conn)
                 output += 'key=' + hash + 'token=' + JSON.stringify(data)
     }
     client_conn.write(output)
+    console.log('Capability token issued')
 }
 
 const create_cap_token = (client_conn, data) => {
@@ -482,9 +484,22 @@ process.chdir(__dirname + '/' + owner)
 var log_file = fs.createWriteStream(__dirname + '/' + owner + '/debug.log', {flags : 'a'});
 var log_stdout = process.stdout;
 
-console.log = function(d) { //
-  log_file.write(util.format(d) + '\n');
-//  log_stdout.write(util.format(d) + '\n');
+function addZero(x, n) {
+  while (x.toString().length < n) {
+    x = "0" + x;
+  }
+  return x;
+}
+
+console.log = function(k) { //
+  var d = new Date();
+  var h = addZero(d.getHours(), 2);
+  var m = addZero(d.getMinutes(), 2);
+  var s = addZero(d.getSeconds(), 2);
+  var ms = addZero(d.getMilliseconds(), 3);
+  var date = h + ":" + m + ":" + s + ":" + ms;
+
+  log_file.write(date + " " + util.format(k) + '\n');
 };
 
 SEED = fs.readFileSync('seed', 'utf8');
